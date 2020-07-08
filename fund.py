@@ -10,6 +10,7 @@ import re
 def getUrl(fscode):
   head = 'http://fundgz.1234567.com.cn/js/'
   tail = '.js?rt=1463558676006'
+  print(head+fscode+tail)
   return head+fscode+tail
 # 根据基金代码获取净值
 def getWorth(fscode):  
