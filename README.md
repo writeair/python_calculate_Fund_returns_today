@@ -1,0 +1,2 @@
+# python_calculate_Fund_returns_today
+通过Python从天天基金获取昨天与今天的基金净值，通过写入的各种基金的份额，计算出今天的收益
