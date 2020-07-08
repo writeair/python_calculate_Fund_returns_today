@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul  8 13:06:16 2020
-*
+2
 @author: 48572
 """
 import requests
