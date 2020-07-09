@@ -59,5 +59,5 @@ for code in allCode:
   netWorthFile.write("\n")
  # print("write "+code+"'s data success.")
 print("今日估算收益（159）："+str(gs_Sumprofit1)+"元")
-print("今日估算总收益："+str(gs_Sumprofit+gs_Sumprofit1)+"元"+",估算时间："+gs_time)
+print("今日估算总收益："+str(round(gs_Sumprofit+gs_Sumprofit1, 2))+"元"+",估算时间："+gs_time)
 netWorthFile.close()
